@@ -110,7 +110,7 @@ export default function App() {
         {/* Projects Section */}
         <section className="bg-slate-900/50 backdrop-blur-sm rounded-2xl border border-slate-800 p-8 mt-8 hover:border-pink-500/30 transition-colors duration-300">
           <div className="flex items-center gap-2 mb-8">
-            <h2 className="text-2xl font-semibold text-white">GitHub Projects</h2>
+            <h2 className="text-2xl font-semibold text-white">My Projects</h2>
             <span className="text-pink-500 font-mono text-sm animate-pulse">●</span>
           </div>
 
