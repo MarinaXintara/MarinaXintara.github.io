@@ -68,10 +68,10 @@ export default function App() {
           <div className="mb-8">
             <h3 className="text-sm font-mono text-pink-400 mb-4 uppercase tracking-wider">// Programming Languages</h3>
             <div className="flex flex-wrap gap-3">
+              <span className="px-4 py-2 bg-gradient-to-r from-slate-800 to-slate-800/50 text-slate-100 rounded-lg border border-pink-500/20 hover:border-pink-500/50 transition-all hover:scale-105 font-mono text-sm">C</span>
               <span className="px-4 py-2 bg-gradient-to-r from-slate-800 to-slate-800/50 text-slate-100 rounded-lg border border-pink-500/20 hover:border-pink-500/50 transition-all hover:scale-105 font-mono text-sm">C++</span>
               <span className="px-4 py-2 bg-gradient-to-r from-slate-800 to-slate-800/50 text-slate-100 rounded-lg border border-pink-500/20 hover:border-pink-500/50 transition-all hover:scale-105 font-mono text-sm">Java</span>
               <span className="px-4 py-2 bg-gradient-to-r from-slate-800 to-slate-800/50 text-slate-100 rounded-lg border border-pink-500/20 hover:border-pink-500/50 transition-all hover:scale-105 font-mono text-sm">Python</span>
-              <span className="px-4 py-2 bg-gradient-to-r from-slate-800 to-slate-800/50 text-slate-100 rounded-lg border border-pink-500/20 hover:border-pink-500/50 transition-all hover:scale-105 font-mono text-sm">C</span>
             </div>
           </div>
 
