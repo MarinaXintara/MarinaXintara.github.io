@@ -46,12 +46,10 @@ export default function App() {
                 <span className="text-pink-500 font-mono text-sm">_</span>
               </div>
               <p className="text-slate-300 leading-relaxed">
-                I'm a passionate Computer Science student dedicated to solving complex problems through innovative software solutions.
-                Currently pursuing my degree with a focus on software engineering and algorithms, I have developed a strong foundation
-                in both theoretical computer science and practical programming. My academic journey has equipped me with expertise in
-                multiple programming languages and modern development practices. I'm particularly interested in software architecture,
-                data structures,AI agents and cybersecurity. Always eager to learn new technologies and collaborate
-                on challenging projects that push the boundaries of what's possible.
+                I'm a second-year Computer Science student at the National and Kapodistrian University of Athens with a passion for software development and security.
+                I have developed a strong foundation in both theoretical computer science and practical programming. My academic journey has equipped me with expertise in
+                multiple programming languages such as Python and familiarity with tools like Git and Linux. I'm particularly interested in web development,
+                data structures,AI agents and cybersecurity.I am eager to extend my knowledge and skills through internships and projects and excited to contribute to the comminity through any way.
               </p>
             </div>
           </div>

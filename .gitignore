@@ -63,5 +63,5 @@ jest.cache
 *.env.local
 
 # Ignore lockfiles for other package managers
-package-lock.json
+
 yarn.lock
