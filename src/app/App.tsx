@@ -50,7 +50,7 @@ export default function App() {
                 Currently pursuing my degree with a focus on software engineering and algorithms, I have developed a strong foundation
                 in both theoretical computer science and practical programming. My academic journey has equipped me with expertise in
                 multiple programming languages and modern development practices. I'm particularly interested in software architecture,
-                data structures, and building efficient, scalable applications. Always eager to learn new technologies and collaborate
+                data structures,AI agents and cybersecurity. Always eager to learn new technologies and collaborate
                 on challenging projects that push the boundaries of what's possible.
               </p>
             </div>
@@ -118,13 +118,13 @@ export default function App() {
           <div className="bg-slate-800/50 rounded-xl border border-slate-700 p-6 hover:border-pink-500/40 transition-all duration-300 hover:shadow-lg hover:shadow-pink-500/10">
             <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4 mb-4">
               <div>
-                <h3 className="text-xl font-semibold text-white mb-2">Woodwork Shop Website</h3>
+                <h3 className="text-xl font-semibold text-white mb-2">Aluminium workshop website</h3>
                 <p className="text-slate-400 text-sm font-mono mb-3">
-                  <span className="text-purple-400">Full-stack website</span>
+                  <span className="text-purple-400">Static website</span>
                 </p>
               </div>
               <a
-                href="#"
+                href="https://github.com/MarinaXintara/site"
                 className="flex items-center gap-2 px-4 py-2 bg-pink-500/10 hover:bg-pink-500/20 border border-pink-500/30 hover:border-pink-500/50 rounded-lg transition-all text-pink-400 hover:text-pink-300 text-sm font-mono whitespace-nowrap self-start"
               >
                 <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
@@ -135,7 +135,7 @@ export default function App() {
             </div>
 
             <p className="text-slate-300 mb-4 leading-relaxed">
-              A fully responsive website for a local woodwork shop showcasing their custom furniture and craftsmanship.
+              A fully responsive website for a local aluminium workshop showcasing their custom aluminium windows and doors.
               Features include a product gallery, contact form, and service descriptions. Built with modern web technologies
               to provide an elegant and user-friendly experience for customers.
             </p>
