@@ -49,7 +49,7 @@ export default function App() {
                 I'm a second-year Computer Science student at the National and Kapodistrian University of Athens with a passion for software development and security.
                 I have developed a strong foundation in both theoretical computer science and practical programming. My academic journey has equipped me with expertise in
                 multiple programming languages such as Python and familiarity with tools like Git and Linux. I'm particularly interested in web development,
-                data structures,AI agents and cybersecurity.I am eager to extend my knowledge and skills through internships and projects and excited to contribute to the comminity through any way.
+                data structures,AI agents and cybersecurity.I am eager to extend my knowledge and skills through internships and projects and excited to contribute to the tech community.
               </p>
             </div>
           </div>
