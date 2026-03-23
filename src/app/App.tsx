@@ -70,6 +70,8 @@ export default function App() {
               <span className="px-4 py-2 bg-gradient-to-r from-slate-800 to-slate-800/50 text-slate-100 rounded-lg border border-pink-500/20 hover:border-pink-500/50 transition-all hover:scale-105 font-mono text-sm">C++</span>
               <span className="px-4 py-2 bg-gradient-to-r from-slate-800 to-slate-800/50 text-slate-100 rounded-lg border border-pink-500/20 hover:border-pink-500/50 transition-all hover:scale-105 font-mono text-sm">Java</span>
               <span className="px-4 py-2 bg-gradient-to-r from-slate-800 to-slate-800/50 text-slate-100 rounded-lg border border-pink-500/20 hover:border-pink-500/50 transition-all hover:scale-105 font-mono text-sm">Python</span>
+              <span className="px-4 py-2 bg-gradient-to-r from-slate-800 to-slate-800/50 text-slate-100 rounded-lg border border-pink-500/20 hover:border-pink-500/50 transition-all hover:scale-105 font-mono text-sm">JavaScript</span>
+              <span className="px-4 py-2 bg-gradient-to-r from-slate-800 to-slate-800/50 text-slate-100 rounded-lg border border-pink-500/20 hover:border-pink-500/50 transition-all hover:scale-105 font-mono text-sm">SQL</span>
             </div>
           </div>
 
@@ -79,6 +81,9 @@ export default function App() {
             <div className="flex flex-wrap gap-3">
               <span className="px-4 py-2 bg-gradient-to-r from-slate-800 to-slate-800/50 text-slate-100 rounded-lg border border-purple-500/20 hover:border-purple-500/50 transition-all hover:scale-105 font-mono text-sm">HTML</span>
               <span className="px-4 py-2 bg-gradient-to-r from-slate-800 to-slate-800/50 text-slate-100 rounded-lg border border-purple-500/20 hover:border-purple-500/50 transition-all hover:scale-105 font-mono text-sm">CSS</span>
+              <span className="px-4 py-2 bg-gradient-to-r from-slate-800 to-slate-800/50 text-slate-100 rounded-lg border border-purple-500/20 hover:border-purple-500/50 transition-all hover:scale-105 font-mono text-sm">Node.js</span>
+              <span className="px-4 py-2 bg-gradient-to-r from-slate-800 to-slate-800/50 text-slate-100 rounded-lg border border-purple-500/20 hover:border-purple-500/50 transition-all hover:scale-105 font-mono text-sm">React</span>
+              <span className="px-4 py-2 bg-gradient-to-r from-slate-800 to-slate-800/50 text-slate-100 rounded-lg border border-purple-500/20 hover:border-purple-500/50 transition-all hover:scale-105 font-mono text-sm">TypeScript</span>
             </div>
           </div>
 
@@ -101,6 +106,7 @@ export default function App() {
               <span className="px-4 py-2 bg-gradient-to-r from-slate-800 to-slate-800/50 text-slate-100 rounded-lg border border-purple-500/20 hover:border-purple-500/50 transition-all hover:scale-105 font-mono text-sm">GitHub</span>
               <span className="px-4 py-2 bg-gradient-to-r from-slate-800 to-slate-800/50 text-slate-100 rounded-lg border border-purple-500/20 hover:border-purple-500/50 transition-all hover:scale-105 font-mono text-sm">VS Code</span>
               <span className="px-4 py-2 bg-gradient-to-r from-slate-800 to-slate-800/50 text-slate-100 rounded-lg border border-purple-500/20 hover:border-purple-500/50 transition-all hover:scale-105 font-mono text-sm">Linux</span>
+              <span className="px-4 py-2 bg-gradient-to-r from-slate-800 to-slate-800/50 text-slate-100 rounded-lg border border-purple-500/20 hover:border-purple-500/50 transition-all hover:scale-105 font-mono text-sm">MySQL</span>
             </div>
           </div>
         </section>
