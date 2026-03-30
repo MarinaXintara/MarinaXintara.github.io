@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Marina Xintara CV</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Georgia', serif;
+      font-size: 11pt;
+      color: #1a1a1a;
+      background: #fff;
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 48px 56px;
+      line-height: 1.5;
+    }
+
+    /* ── Header ── */
+    header {
+      text-align: center;
+      padding-bottom: 18px;
+      margin-bottom: 22px;
+      border-bottom: 1px solid #ccc;
+    }
+
+    header h1 {
+      font-size: 28pt;
+      font-weight: normal;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    header .subtitle {
+      font-size: 10pt;
+      color: #777;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      margin-top: 5px;
+    }
+
+    .contact-row {
+      margin-top: 12px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 0;
+      font-size: 9pt;
+      color: #444;
+    }
+
+    .contact-row span {
+      color: #444;
+      padding: 0 10px;
+    }
+
+    .contact-row a {
+      color: #2563b8;
+      text-decoration: underline;
+      text-underline-offset: 2px;
+      padding: 0 10px;
+    }
+
+    .contact-row a:hover { color: #1a3f7a; }
+
+    .contact-row .sep {
+      color: #bbb;
+      padding: 0;
+    }
+
+    /* ── Sections ── */
+    section {
+      margin-bottom: 20px;
+    }
+
+    section h2 {
+      font-size: 10pt;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: #1a1a1a;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 3px;
+      margin-bottom: 10px;
+    }
+
+    /* ── Education ── */
+    .entry {
+      margin-bottom: 10px;
+    }
+
+    .entry-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+
+    .entry-title {
+      font-weight: bold;
+      font-size: 10.5pt;
+    }
+
+    .entry-date {
+      font-size: 9.5pt;
+      color: #555;
+      white-space: nowrap;
+    }
+
+    .entry-date a {
+      color: #2563b8;
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+
+    .entry-sub {
+      font-size: 10pt;
+      color: #444;
+      font-style: italic;
+    }
+
+    .entry-sub a {
+      color: #2563b8;
+      text-decoration: underline;
+      text-underline-offset: 2px;
+      font-style: italic;
+    }
+
+    .entry-sub a:hover { color: #1a3f7a; }
+
+    .entry-body {
+      font-size: 10pt;
+      color: #333;
+      margin-top: 3px;
+    }
+
+    /* ── Skills ── */
+    .skills-grid {
+      display: grid;
+      grid-template-columns: 140px 1fr;
+      gap: 5px 12px;
+      font-size: 10pt;
+    }
+
+    .skills-label {
+      color: #555;
+      font-style: italic;
+    }
+
+    /* ── Languages ── */
+    .lang-row {
+      font-size: 10pt;
+      display: flex;
+      gap: 28px;
+    }
+
+    /* ── Print ── */
+    @media print {
+      body {
+        margin: 0;
+        padding: 20mm 22mm;
+        max-width: none;
+      }
+      @page { margin: 0; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Marina Xintara</h1>
+    <div class="subtitle">Computer Science Student</div>
+    <div class="contact-row">
+      <span>Athens, Greece</span>
+      <span class="sep">·</span>
+      <a href="tel:+306983687169">+30 698 368 7169</a>
+      <span class="sep">·</span>
+      <a href="mailto:marinaxintara@gmail.com">marinaxintara@gmail.com</a>
+      <span class="sep">·</span>
+      <a href="https://www.linkedin.com/in/marina-xintara-8b1300262/">LinkedIn</a>
+      <span class="sep">·</span>
+      <a href="https://github.com/MarinaXintara">GitHub</a>
+    </div>
+  </header>
+
+  <!-- Education -->
+  <section>
+    <h2>Education</h2>
+    <div class="entry">
+      <div class="entry-header">
+        <span class="entry-title">National and Kapodistrian University of Athens</span>
+        <span class="entry-date">2024 – Present</span>
+      </div>
+      <div class="entry-sub">B.Sc. in Computer Science &nbsp;·&nbsp; 2nd Year</div>
+      <div class="entry-body">Coursework: Data Structures, Algorithms, Object-Oriented Programming, Database Design.</div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section>
+    <h2>Technical Skills</h2>
+    <div class="skills-grid">
+      <span class="skills-label">Languages</span>
+      <span>C, C++, Java, Python, JavaScript, SQL</span>
+
+      <span class="skills-label">Web</span>
+      <span>HTML, CSS, React, TypeScript, Node.js</span>
+
+      <span class="skills-label">Tools</span>
+      <span>Git, GitHub, Linux, VS Code, MySQL</span>
+
+      <span class="skills-label">Concepts</span>
+      <span>Data Structures, Algorithms, OOP, Database Design</span>
+
+      <span class="skills-label">Interests</span>
+      <span>Web Development, Cybersecurity, AI Agents</span>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section>
+    <h2>Projects</h2>
+    <div class="entry">
+      <div class="entry-header">
+        <span class="entry-title">Aluminium Workshop Website</span>
+        <span class="entry-date"><a href="https://github.com/MarinaXintara/site">github.com/MarinaXintara/site</a></span>
+      </div>
+      <div class="entry-sub">Static Website &nbsp;·&nbsp; HTML · CSS · JavaScript</div>
+      <div class="entry-body">
+        Fully responsive website for a local aluminium workshop, featuring a product gallery, contact form, and service descriptions.
+        Designed for a non-technical client with an emphasis on usability and clean layout.
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications -->
+  <section>
+    <h2>Certifications</h2>
+    <div class="entry">
+      <div class="entry-header">
+        <span class="entry-title">Introduction to DevSecOps</span>
+        <span class="entry-date">2025</span>
+      </div>
+      <div class="entry-sub">Coursera &nbsp;·&nbsp; <a href="https://www.coursera.org/account/accomplishments/verify/M9T74LI1B601">coursera.org/verify/M9T74LI1B601</a></div>
+      <div class="entry-body">Completed a beginner-level course covering the fundamentals of DevSecOps. Gained foundational knowledge in vulnerability management, security testing, CI/CD, automation, and integrating security into the development lifecycle.</div>
+    </div>
+  </section>
+
+  <!-- Community -->
+  <section>
+    <h2>Community</h2>
+    <div class="entry">
+      <div class="entry-header">
+        <span class="entry-title">PyLadies Athens</span>
+        <span class="entry-date">2025 – Present</span>
+      </div>
+      <div class="entry-sub">Member</div>
+      <div class="entry-body">Active participant in a local community supporting women in Python and tech across Greece. Engages in meetups, workshops, and networking events.</div>
+    </div>
+  </section>
+
+  <!-- Languages -->
+  <section>
+    <h2>Languages</h2>
+    <div class="lang-row">
+      <span><strong>Greek</strong>: Native</span>
+      <span><strong>English</strong>: Fluent (C2)</span>
+      <span><strong>German</strong>: Advanced (C1)</span>
+    </div>
+  </section>
+
+</body>
+</html>
