@@ -46,10 +46,9 @@ export default function App() {
                 <span className="text-pink-500 font-mono text-sm">_</span>
               </div>
               <p className="text-slate-300 leading-relaxed">
-                I'm a second-year Computer Science student at the National and Kapodistrian University of Athens with a passion for software development and security.
-                I have developed a strong foundation in both theoretical computer science and practical programming. My academic journey has equipped me with expertise in
-                multiple programming languages such as Python and familiarity with tools like Git and Linux. I'm particularly interested in web development,
-                data structures, AI agents and cybersecurity. I am eager to extend my knowledge and skills through internships and projects and excited to contribute to the tech community.
+                I'm a second-year Computer Science student at the National and Kapodistrian University of Athens with interests in web development and security.
+                I build practical projects for real clients while exploring DevSecOps and AI agents, with a strong foundation in multiple programming languages
+                and everyday tools like Git and Linux. I'm eager to keep learning through internships and collaborative projects, and excited to contribute to the tech community.
               </p>
             </div>
           </div>
@@ -84,6 +83,7 @@ export default function App() {
               <span className="px-4 py-2 bg-gradient-to-r from-slate-800 to-slate-800/50 text-slate-100 rounded-lg border border-purple-500/20 hover:border-purple-500/50 transition-all hover:scale-105 font-mono text-sm">Node.js</span>
               <span className="px-4 py-2 bg-gradient-to-r from-slate-800 to-slate-800/50 text-slate-100 rounded-lg border border-purple-500/20 hover:border-purple-500/50 transition-all hover:scale-105 font-mono text-sm">React</span>
               <span className="px-4 py-2 bg-gradient-to-r from-slate-800 to-slate-800/50 text-slate-100 rounded-lg border border-purple-500/20 hover:border-purple-500/50 transition-all hover:scale-105 font-mono text-sm">TypeScript</span>
+              <span className="px-4 py-2 bg-gradient-to-r from-slate-800 to-slate-800/50 text-slate-100 rounded-lg border border-purple-500/20 hover:border-purple-500/50 transition-all hover:scale-105 font-mono text-sm">REST APIs</span>
             </div>
           </div>
 
@@ -119,12 +119,51 @@ export default function App() {
           </div>
 
           {/* Project Card */}
+          <div className="bg-slate-800/50 rounded-xl border border-slate-700 p-6 mb-6 hover:border-pink-500/40 transition-all duration-300 hover:shadow-lg hover:shadow-pink-500/10">
+            <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4 mb-4">
+              <div>
+                <h3 className="text-xl font-semibold text-white mb-2">Event Management &amp; Online Booking Platform</h3>
+                <p className="text-slate-400 text-sm font-mono mb-3">
+                  <span className="text-purple-400">University project</span>
+                  <span className="text-slate-600"> · </span>
+                  <span className="text-slate-400">Team of 2</span>
+                  <span className="text-slate-600"> · </span>
+                  <span className="text-slate-400">2026</span>
+                </p>
+              </div>
+              <span className="flex items-center gap-2 px-4 py-2 bg-purple-500/10 border border-purple-500/30 rounded-lg text-purple-300 text-sm font-mono whitespace-nowrap self-start">
+                <span className="w-2 h-2 rounded-full bg-purple-400 animate-pulse"></span>
+                In progress
+              </span>
+            </div>
+
+            <p className="text-slate-300 mb-4 leading-relaxed">
+              Full-stack platform for creating events, managing ticket types and capacity, and processing bookings across four user roles
+              (admin, organiser, attendee, visitor). REST API backend secured by JWT authentication and role-based authorisation, with a relational
+              database and XML (DTD) / JSON export. Features paginated event search, OpenStreetMap venue integration, organiser–attendee messaging,
+              and a from-scratch Biased Matrix Factorization recommender for personalised event suggestions.
+            </p>
+
+            <div className="flex flex-wrap gap-2">
+              <span className="px-3 py-1 bg-slate-700/50 text-slate-200 rounded-md border border-pink-500/20 text-xs font-mono">React</span>
+              <span className="px-3 py-1 bg-slate-700/50 text-slate-200 rounded-md border border-pink-500/20 text-xs font-mono">TypeScript</span>
+              <span className="px-3 py-1 bg-slate-700/50 text-slate-200 rounded-md border border-purple-500/20 text-xs font-mono">REST API</span>
+              <span className="px-3 py-1 bg-slate-700/50 text-slate-200 rounded-md border border-purple-500/20 text-xs font-mono">JWT</span>
+              <span className="px-3 py-1 bg-slate-700/50 text-slate-200 rounded-md border border-pink-500/20 text-xs font-mono">MySQL</span>
+              <span className="px-3 py-1 bg-slate-700/50 text-slate-200 rounded-md border border-purple-500/20 text-xs font-mono">Recommender System</span>
+            </div>
+          </div>
+
+          {/* Project Card */}
           <div className="bg-slate-800/50 rounded-xl border border-slate-700 p-6 hover:border-pink-500/40 transition-all duration-300 hover:shadow-lg hover:shadow-pink-500/10">
             <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4 mb-4">
               <div>
                 <h3 className="text-xl font-semibold text-white mb-2">Aluminium workshop website</h3>
                 <p className="text-slate-400 text-sm font-mono mb-3">
                   <span className="text-purple-400">Static website</span>
+                  <span className="text-slate-600"> · </span>
+                  <span className="text-slate-400">2025</span>
+
                 </p>
               </div>
               <a
