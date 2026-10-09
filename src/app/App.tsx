@@ -84,6 +84,7 @@ export default function App() {
               <span className="px-4 py-2 bg-gradient-to-r from-slate-800 to-slate-800/50 text-slate-100 rounded-lg border border-purple-500/20 hover:border-purple-500/50 transition-all hover:scale-105 font-mono text-sm">Node.js</span>
               <span className="px-4 py-2 bg-gradient-to-r from-slate-800 to-slate-800/50 text-slate-100 rounded-lg border border-purple-500/20 hover:border-purple-500/50 transition-all hover:scale-105 font-mono text-sm">React</span>
               <span className="px-4 py-2 bg-gradient-to-r from-slate-800 to-slate-800/50 text-slate-100 rounded-lg border border-purple-500/20 hover:border-purple-500/50 transition-all hover:scale-105 font-mono text-sm">TypeScript</span>
+              <span className="px-4 py-2 bg-gradient-to-r from-slate-800 to-slate-800/50 text-slate-100 rounded-lg border border-purple-500/20 hover:border-purple-500/50 transition-all hover:scale-105 font-mono text-sm">REST APIs</span>
             </div>
           </div>
 
@@ -166,6 +167,9 @@ export default function App() {
                 <h3 className="text-xl font-semibold text-white mb-2">Aluminium workshop website</h3>
                 <p className="text-slate-400 text-sm font-mono mb-3">
                   <span className="text-purple-400">Static website</span>
+                  <span className="text-slate-600"> · </span>
+                  <span className="text-slate-400">2025</span>
+
                   <span className="text-slate-600"> · </span>
                   <span className="text-slate-400">2025</span>
 
